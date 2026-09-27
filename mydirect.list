@@ -145,3 +145,5 @@ DOMAIN-SUFFIX,sankuai.com
 # --- 2026-09-28 微信直播CDN+小程序网关 ---
 DOMAIN-SUFFIX,wxlivecdn.com
 DOMAIN-SUFFIX,wxgateway.com
+# --- 2026-09-28 腾讯CDN（cdntips，微信媒体分发）---
+DOMAIN-SUFFIX,cdntips.net
