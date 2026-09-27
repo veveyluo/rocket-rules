@@ -112,3 +112,15 @@ DOMAIN-SUFFIX,elemecdn.com
 DOMAIN-SUFFIX,didistatic.com
 DOMAIN-SUFFIX,yximgs.com
 DOMAIN-SUFFIX,pstatp.com
+# --- 2026-09-28 字节系兄弟域补漏（头条日志实锤）---
+DOMAIN-SUFFIX,toutiaoapi.com
+DOMAIN-SUFFIX,ecombdapi.com
+DOMAIN-SUFFIX,zijieapi.com
+DOMAIN-SUFFIX,baike.com
+DOMAIN-SUFFIX,byteimg.com
+DOMAIN-SUFFIX,toutiaovod.com
+DOMAIN-SUFFIX,bytedanceapi.com
+DOMAIN-SUFFIX,toutiaostatic.com
+DOMAIN-SUFFIX,snssdk.com
+DOMAIN-SUFFIX,ixigua.com
+DOMAIN-SUFFIX,jinritoutiao.com
