@@ -137,3 +137,6 @@ DOMAIN-SUFFIX,talkingdata.com
 DOMAIN-SUFFIX,cnzz.com
 # --- 2026-09-28 搜狗系（输入法/手机助手ws通道）---
 DOMAIN-SUFFIX,sogou.com
+# --- 2026-09-28 05:31日志：中盈投顾API+国内P2P节点 ---
+DOMAIN-SUFFIX,zhongyingtougu.com
+DOMAIN-SUFFIX,kuiniuca.com
