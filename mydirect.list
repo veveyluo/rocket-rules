@@ -142,3 +142,6 @@ DOMAIN-SUFFIX,zhongyingtougu.com
 DOMAIN-SUFFIX,kuiniuca.com
 # --- 2026-09-28 美团公司域（Logan埋点SDK）---
 DOMAIN-SUFFIX,sankuai.com
+# --- 2026-09-28 微信直播CDN+小程序网关 ---
+DOMAIN-SUFFIX,wxlivecdn.com
+DOMAIN-SUFFIX,wxgateway.com
