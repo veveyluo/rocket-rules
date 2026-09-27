@@ -1,0 +1,16 @@
+# 个人国内直连补漏集（Zero 维护，盘后自动推送）
+# 来源：Shadowrocket 请求日志漏网整理 + 用户报漏
+# UPDATED: 2026-09-28
+DOMAIN-SUFFIX,jin10.com
+DOMAIN-KEYWORD,jin10
+DOMAIN-SUFFIX,10jqka.com.cn
+DOMAIN-SUFFIX,10jqka.com
+DOMAIN-SUFFIX,iwencai.com
+DOMAIN-KEYWORD,10jqka
+DOMAIN-KEYWORD,tonghuashun
+DOMAIN-KEYWORD,iwencai
+DOMAIN-SUFFIX,qq.com
+DOMAIN-SUFFIX,123ths.com
+DOMAIN-SUFFIX,5ifund.com
+DOMAIN-SUFFIX,touzime.com
+DOMAIN-SUFFIX,hxkba.com
