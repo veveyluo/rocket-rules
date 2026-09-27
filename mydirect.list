@@ -147,3 +147,6 @@ DOMAIN-SUFFIX,wxlivecdn.com
 DOMAIN-SUFFIX,wxgateway.com
 # --- 2026-09-28 腾讯CDN（cdntips，微信媒体分发）---
 DOMAIN-SUFFIX,cdntips.net
+# --- 2026-09-28 腾讯直播家族（视频号/MLVB信令）---
+DOMAIN-SUFFIX,tlivesource.com
+DOMAIN-SUFFIX,tlivedns.com
