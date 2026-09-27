@@ -83,3 +83,7 @@ DOMAIN-SUFFIX,haoluo.com
 # --- 2026-09-28 米游社补漏 ---
 DOMAIN-SUFFIX,mihoyo.com
 DOMAIN-SUFFIX,miyoushe.com
+# --- 2026-09-28 360系补漏（智慧生活等）---
+DOMAIN-SUFFIX,360.com
+DOMAIN-SUFFIX,qihoo.com
+DOMAIN-SUFFIX,so.com
