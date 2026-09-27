@@ -1,0 +1,7 @@
+# 富途静态/内容资源直连集（评论区图片、样式、新闻正文；不含交易与API）
+# 用法：RULE-SET,<url>,🌐 全球直连（必须放在 hk-quanshang 规则之前）
+# UPDATED: 2026-09-28
+DOMAIN,static.futunn.com
+DOMAIN,static.moomoo.com
+DOMAIN,cdn.moomoo.com
+DOMAIN,news.futunn.com
