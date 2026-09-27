@@ -126,3 +126,12 @@ DOMAIN-SUFFIX,ixigua.com
 DOMAIN-SUFFIX,jinritoutiao.com
 # --- 2026-09-28 头条日志二轮：广告SDK域 ---
 DOMAIN-SUFFIX,qiezibenpao.com
+# --- 2026-09-28 国内App通用推送/统计SDK（贴吧等启动链路）---
+DOMAIN-SUFFIX,jpush.cn
+DOMAIN-SUFFIX,jiguang.cn
+DOMAIN-SUFFIX,getui.com
+DOMAIN-SUFFIX,igexin.com
+DOMAIN-SUFFIX,umeng.com
+DOMAIN-SUFFIX,umengcloud.com
+DOMAIN-SUFFIX,talkingdata.com
+DOMAIN-SUFFIX,cnzz.com
