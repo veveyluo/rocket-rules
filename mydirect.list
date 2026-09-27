@@ -80,3 +80,6 @@ DOMAIN-SUFFIX,kugou.com
 DOMAIN-SUFFIX,fliggy.com
 DOMAIN-SUFFIX,zhuanzhuan.com
 DOMAIN-SUFFIX,haoluo.com
+# --- 2026-09-28 米游社补漏 ---
+DOMAIN-SUFFIX,mihoyo.com
+DOMAIN-SUFFIX,miyoushe.com
