@@ -1,0 +1,4 @@
+# 中国大陆加速域名集（转换自 felixonmars/dnsmasq-china-list，OpenWrt 事实标准）
+# 后缀去重后 1 条；域名级直连兜底层，终结 CDN 兄弟域打地鼠
+# UPDATED: 2026-09-28
+DOMAIN-SUFFIX,114.114.114.114
