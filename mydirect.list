@@ -94,3 +94,5 @@ DOMAIN-SUFFIX,115.com
 DOMAIN-SUFFIX,139.com
 # --- 2026-09-28 小红书CDN补漏 ---
 DOMAIN-SUFFIX,xhscdn.com
+# --- 2026-09-28 小天才(imoo)补漏 ---
+DOMAIN-SUFFIX,imoo.com
