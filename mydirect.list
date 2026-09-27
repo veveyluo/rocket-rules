@@ -92,3 +92,5 @@ DOMAIN-SUFFIX,alipan.com
 DOMAIN-SUFFIX,jianguoyun.com
 DOMAIN-SUFFIX,115.com
 DOMAIN-SUFFIX,139.com
+# --- 2026-09-28 小红书CDN补漏 ---
+DOMAIN-SUFFIX,xhscdn.com
