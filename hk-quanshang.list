@@ -1,5 +1,5 @@
 # 港股券商强制香港节点集（富途 + 长桥；Zero 维护；IP 轮换时更新此文件即可，无需改 conf）
-# 用法：RULE-SET,<url>,🇭 香港节点
+# 用法：RULE-SET,<url>,🥇IEPL专线（2026-09-28 用户指定）
 # UPDATED: 2026-09-28c
 # --- 富途 ---
 DOMAIN-KEYWORD,futu
