@@ -96,3 +96,19 @@ DOMAIN-SUFFIX,139.com
 DOMAIN-SUFFIX,xhscdn.com
 # --- 2026-09-28 小天才(imoo)补漏 ---
 DOMAIN-SUFFIX,imoo.com
+# --- 2026-09-28 终审：大厂CDN域补漏 ---
+DOMAIN-SUFFIX,360buyimg.com
+DOMAIN-SUFFIX,meituan.net
+DOMAIN-SUFFIX,zhimg.com
+DOMAIN-SUFFIX,bdstatic.com
+DOMAIN-SUFFIX,douyinpic.com
+DOMAIN-SUFFIX,douyinstatic.com
+DOMAIN-SUFFIX,pddpic.com
+DOMAIN-SUFFIX,xmcdn.com
+DOMAIN-SUFFIX,doubanio.com
+DOMAIN-SUFFIX,qunarzz.com
+DOMAIN-SUFFIX,c-ctrip.com
+DOMAIN-SUFFIX,elemecdn.com
+DOMAIN-SUFFIX,didistatic.com
+DOMAIN-SUFFIX,yximgs.com
+DOMAIN-SUFFIX,pstatp.com
