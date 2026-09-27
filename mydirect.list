@@ -135,3 +135,5 @@ DOMAIN-SUFFIX,umeng.com
 DOMAIN-SUFFIX,umengcloud.com
 DOMAIN-SUFFIX,talkingdata.com
 DOMAIN-SUFFIX,cnzz.com
+# --- 2026-09-28 搜狗系（输入法/手机助手ws通道）---
+DOMAIN-SUFFIX,sogou.com
