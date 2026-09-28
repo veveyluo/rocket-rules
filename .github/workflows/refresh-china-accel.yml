@@ -1,0 +1,52 @@
+name: refresh-china-accel
+
+on:
+  schedule:
+    - cron: '37 3 * * 1'   # 每周一 UTC 03:37 = 北京 11:37
+  workflow_dispatch:
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: convert & dedupe from dnsmasq-china-list
+        run: |
+          python3 - <<'PY'
+          import urllib.request, datetime
+          src = urllib.request.urlopen(
+              'https://raw.githubusercontent.com/felixonmars/dnsmasq-china-list/master/accelerated-domains.china.conf',
+              timeout=90).read().decode()
+          doms = set()
+          for l in src.splitlines():
+              if l.startswith('server=/'):
+                  ps = l.split('/')
+                  if len(ps) >= 3 and '.' in ps[1]:
+                      doms.add(ps[1].lower())
+          keep = set()
+          for d in sorted(doms, key=lambda x: x.count('.')):
+              p = d.split('.')
+              if not any('.'.join(p[i:]) in keep for i in range(1, len(p))):
+                  keep.add(d)
+          out = ['# 中国大陆加速域名集（转换自 felixonmars/dnsmasq-china-list，OpenWrt 事实标准）',
+                 f'# 后缀去重后 {len(keep)} 条；域名级直连兜底层，终结 CDN 兄弟域打地鼠',
+                 f'# UPDATED: {datetime.date.today().isoformat()} (auto by GitHub Actions)']
+          out += ['DOMAIN-SUFFIX,' + d for d in sorted(keep)]
+          open('china-accel.list', 'w').write('\n'.join(out) + '\n')
+          print('domains:', len(keep))
+          PY
+
+      - name: commit if changed
+        run: |
+          git config user.name "zero-bot"
+          git config user.email "zero-bot@users.noreply.github.com"
+          git add china-accel.list
+          if git diff --cached --quiet; then
+            echo "no change, skip commit"
+          else
+            git commit -m "auto: refresh china-accel $(date -u +%F)"
+            git push
+          fi
