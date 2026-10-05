@@ -1,0 +1,4 @@
+# 第三方 Telegram 客户端域名集（策略由 conf 的 RULE-SET 指定 → 📲 Telegram 组）
+# 维护方式：报漏即推（Shadowrocket 日志截图报域名，Zero 追加）
+# UPDATED: 2026-10-05
+DOMAIN-SUFFIX,iturrit.com
