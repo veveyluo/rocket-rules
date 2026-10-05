@@ -1,6 +1,6 @@
 # 中国大陆加速域名集（转换自 felixonmars/dnsmasq-china-list，OpenWrt 事实标准）
 # 后缀去重后 110627 条；域名级直连兜底层，终结 CDN 兄弟域打地鼠
-# UPDATED: 2026-09-28 (auto by GitHub Actions)
+# UPDATED: 2026-10-05 (auto by GitHub Actions)
 DOMAIN-SUFFIX,0.xn--czrs0t
 DOMAIN-SUFFIX,0.xn--unup4y
 DOMAIN-SUFFIX,0.zone
